@@ -1,0 +1,7 @@
+"v"40ztp1.@
+    2
+    .    The instruction pointer gets split in two.
+    @    Then the original changes its clone's path.
+         Both print a number to signal that the code
+         works. The redirection method might be useful
+         in more complex concurrent programs, too.
