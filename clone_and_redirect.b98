@@ -1,7 +1,18 @@
 "v"40ztp1.@
     2
     .    The instruction pointer gets split in two.
-    @    Then the original changes its clone's path.
+         Then the original changes its clone's path.
          Both print a number to signal that the code
          works. The redirection method might be useful
          in more complex concurrent programs, too.
+
+
+         The above of course works, but later I realized
+         a simpler way to achieve this:
+
+    >#vt3.@
+      4
+      .
+      @
+
+         ...should have been obvious.
